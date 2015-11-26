@@ -1251,7 +1251,7 @@ dt {
 dd {
   margin-left: 0;
 }
-@media (min-width: 768px) {
+  @media (min-width: 768px) {
   .dl-horizontal dt {
     float: left;
     width: 160px;
@@ -1400,7 +1400,7 @@ pre code {
 }
 @media (min-width: 1200px) {
   .container {
-    width: 1170px;
+    width: 1370px;
   }
 }
 .container-fluid {

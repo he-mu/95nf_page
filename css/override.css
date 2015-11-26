@@ -49,6 +49,61 @@ h4 {
   -webkit-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
+}
+
+.whoshoutback{
+  background-image: url("../img/whoshout.jpg");
+  /*background-size:contain; */
+  background-size: 100% 100%;
+  min-height: 450px;
+  /*width: 100%;
+  padding-top: 66,64%; */
+}
 
 
+.nopadding{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+
+@media (min-width: 0px) {
+.headerpic {
+  background-image: url("../img/headerBackNew.jpg");
+  /*background-size:contain; */
+  background-size: 100% 100%;
+  min-height: 250px;
+  /*width: 100%; */
+  padding-top: 66,64%; 
+  }
+}
+@media (min-width: 768px) {
+.headerpic {
+  background-image: url("../img/headerBackNew.jpg");
+  /*background-size:contain; */
+  background-size: 100% 100%;
+  min-height: 400px;
+  /*width: 100%; */
+  padding-top: 66,64%; 
+  }
+}
+@media (min-width: 992px) {
+  .headerpic {
+  background-image: url("../img/headerBackNew.jpg");
+  /*background-size:contain; */
+  background-size: 100% 100%;
+  min-height: 500px;
+  /*width: 100%; */
+  padding-top: 66,64%; 
+  }
+}
+@media (min-width: 1200px) {
+  .headerpic {
+  background-image: url("../img/headerBackNew.jpg");
+  /*background-size:contain; */
+  background-size: 100% 100%;
+  min-height: 65<0px;
+  /*width: 100%; */
+  padding-top: 66,64%; 
+  }
 }
